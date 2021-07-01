@@ -57,7 +57,6 @@ def word_of_the_day
   # Declare the variables
   word = data['word']
   # Display the result
-  # puts "id=#{id}"
   puts "[  WORD OF THE DAY  ]\n"
   puts "#{word}"
 
