@@ -2,11 +2,7 @@ require 'net/http'
 require 'json'
 require_relative 'word_methods'
 require_relative 'word_game'
-
-#Variables
-API_KEY = "fb8007781a73a8884e3821dc8f330cf2949b422d2a4be2bac9f1d5def50213d48f04cf2869255230d8e5adc4bee08ed27035a7a65745b5184b37848e93a691c099b93b1b072f24ad7908352ed10947e3"
-Options = "1. Word Definitions\n2. Word Synonyms\n3. Word Antonyms\n4. Word Examples\n5. Word Full Dict\n6. Word of the Day Full Dict\n7. Word Game\n8. Exit\n\n"
-Intro = "\n\n Welcome to the word dictionary, You can do the following opertions on this dictionary : \n\n"
+require_relative 'credentials'
 
 # This Below method prints the ASCII art, which is present in ASCII_Art.txt file
 def render_ascii_art
