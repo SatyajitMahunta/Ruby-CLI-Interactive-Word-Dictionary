@@ -41,16 +41,22 @@ while true
   
   case choice
     when "1"
+      puts Fetch_data
       word_definition(word)
     when "2"
+      puts Fetch_data
       word_related(word)
     when "3"
+      puts Fetch_data
       word_related(word)
     when "4"
+      puts Fetch_data
       word_examples(word)
     when "5"
+      puts Fetch_data
       word_full_dict(word)
     when "6"
+      puts Fetch_data
       word_of_the_day 
     when "7"
       puts "Game Scoring :: ʕ•ᴥ•ʔ

@@ -21,7 +21,7 @@ def word_game
     while true
         if code == 1  # 1 -- > SKIP 
             puts "The Word is ::  "
-            puts random_word + '\n'
+            puts random_word + "\n"
             word_full_dict(random_word)
             code = 2
         end 
@@ -38,7 +38,7 @@ def word_game
             data_syn_ant = extract_content(link2)
             related_word_arr = data_syn_ant[0]["words"]
         
-            puts related_word_arr
+            #puts related_word_arr
             word_def_len = data_def.length()
             related_word_len = related_word_arr.length()
             puts "New Random Word Initialized, Now Guess it :)\n" 
@@ -84,6 +84,7 @@ def word_game
             ch = gets.chomp()
             case ch
                 when '1'
+                    puts Fetch_data
                     code = 2
                     score = 0
                 when '2'
